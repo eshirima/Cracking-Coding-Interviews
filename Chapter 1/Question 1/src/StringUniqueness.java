@@ -92,7 +92,6 @@ public final class StringUniqueness
 
 		System.out.println(isUniqueUsingHashMap("Noo"));
 		System.out.println(isUniqueUsingArrays("Noo"));
-
 	}
 
 }
