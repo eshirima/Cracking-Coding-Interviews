@@ -38,17 +38,17 @@ public final class NumberCreation
 				// the larger digit was found at the end of the ArrayList
 				if (i == (firstList.size() - 1))
 				{
-
+					// TODO:iterate to the front and creating a new integer consisting of this number
 				}
 				// the larger digit was found at the start of the ArrayList
 				else if (i == 0)
 				{
-
+					// TODO:iterate to the back
 				}
 				// the larger digit was found at some random spot in the ArrayList
 				else
 				{
-
+					// TODO:pick some random way of creating this number
 				}
 			}
 		}
