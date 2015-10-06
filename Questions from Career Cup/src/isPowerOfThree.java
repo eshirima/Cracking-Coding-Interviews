@@ -11,7 +11,7 @@ public abstract class isPowerOfThree
 	public static int isPowerOfThree(long number)
 	{
 		double answer = Math.log10(number) / Math.log10(3);
-		if ((answer - (int) (answer)) == 0.0)
+		if ((answer - (int) (answer)) == 0.0) // checks to make sure a whole number was attained
 		{
 			return 1;
 		} else

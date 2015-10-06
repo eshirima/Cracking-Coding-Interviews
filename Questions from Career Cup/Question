@@ -1,4 +1,5 @@
 TUESDAY THE 6TH OF OCTOBER 2015
+
 Write a function to determine if given unsigned 32-bit number is a power of 3.
 Return 1 if yes, 0 otherwise.
 
