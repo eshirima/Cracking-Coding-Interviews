@@ -1,0 +1,5 @@
+TUESDAY THE 06TH OF OCTOBER 2015
+
+Given 2 large numbers, A and B, create a new number C using the digits from A which needs to be
+greater than B.
+e.g. A = 5281, B = 7443, C could equal 8125 for example
