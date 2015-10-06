@@ -1,0 +1,10 @@
+TUESDAY THE 6TH OF OCTOBER 2015
+So uh, at first the question kind of threw me off but it turned out to be a minor Math related problem.
+The trick here is to utilize the good 'ole logarithms.
+For a fact, we know that (3^n) is congruent to 0(mod 3). Plus, we know that (3^n) equals to some number say X.
+So we can formulate that (3^n) = X. X is the number we are given for this case. Now, if X is truly a power of 3,
+then we should have n as an integer. What's left is solving for n. Applying log both sides results into
+	=> (3^n) = X
+	=> n log 3 = log X
+	=> n = log X / log 3
+Now, if n is an integer(not an improper fraction), then X is truly the power. Else, its not.
