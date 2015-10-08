@@ -18,7 +18,7 @@ public final class NumberCreation
 		if ((first == 0) && (second == 0))
 		{
 			System.out.println("Impossible to create a new larger number from zeros");
-			return -1;
+			return -1
 		}
 		List<Integer> firstList = new ArrayList<Integer>();
 		List<Integer> secondList = new ArrayList<Integer>();
