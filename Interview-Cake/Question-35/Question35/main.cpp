@@ -22,13 +22,6 @@ bool isEmpty(std::vector<int> elements)
     }
 }
 
-void swap(int first, int second)
-{
-    int temp = first;
-    first = second;
-    second = temp;
-}
-
 std::vector<int> FisherYatesShuffle(std::vector<int> elements)
 
 {
@@ -41,6 +34,7 @@ std::vector<int> FisherYatesShuffle(std::vector<int> elements)
         for (int i = 0; i < elements.size(); ++i)
         {
             int randomNumber = std::rand() % elements.size();
+	    // swapping elements
             int temp = elements[randomNumber];
             elements[randomNumber] = elements[i];
             elements[i] = temp;
