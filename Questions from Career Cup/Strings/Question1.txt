@@ -1,0 +1,2 @@
+Given a string of characters, find the longest legal word.
+A generic method to check word legality is given.
